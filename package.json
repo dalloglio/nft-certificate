@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "dev": "hardhat node",
+    "compile": "hardhat compile",
+    "deploy": "hardhat ignition deploy ./ignition/modules/NFT.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
